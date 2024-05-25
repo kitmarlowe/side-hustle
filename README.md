@@ -1,32 +1,70 @@
-# Side-hustle
-This is where I will keep track of my side hustle for ctec 227
+# Getting Started with Create React App
 
-# Learning Side Hustle: Exploring React.js with TypeScript and Vite
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Introduction
-Welcome to my Learning Side Hustle project! In this module, I've chosen to dive into React.js, an essential technology in modern web development. My goal is to gain proficiency in React.js while also exploring TypeScript and Vite as additional tools for enhancing my development workflow.
+## Available Scripts
 
-## Choice of Technology
-I've selected React.js for my side hustle project because I've been eager to learn about it. Although I was initially oblivious to anything about React.js, I saw this as an opportunity to challenge myself and expand my skill set in web development.
+In the project directory, you can run:
 
-## Learning Resources
-To kickstart my journey, I've decided to follow the "React tutorial for beginners" video series by Programming with Mosh on YouTube. I've previously used this YouTuber's tutorials for JavaScript and found them highly beneficial. As of now, I've learned how to set up the learning environment by downloading the latest version of Node.js and configuring it through the command line.
+### `npm start`
 
-## Project Components
-- **React.js:** I'll be delving into the fundamentals of React.js, learning about components, state management, and more.
-- **TypeScript:** I'm excited to explore TypeScript, a statically typed superset of JavaScript, which will enhance type safety and code quality within my React.js project.
-- **Vite:** I'll be utilizing Vite as the development server to streamline the application development process, taking advantage of its fast build times and modern features.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Next Steps
-1. Continue following the tutorial series to gain a comprehensive understanding of React.js concepts and best practices.
-2. Implement TypeScript integration into the project and explore its benefits in enhancing code maintainability and scalability.
-3. Utilize Vite as the development environment to build and iterate upon the React.js application, incorporating learned concepts and features.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Weekly Status Reports
-As part of the requirements for this module, I'll be submitting weekly status reports on my progress. These reports will include examples of my work, video demonstrations, and insights gained throughout the learning process.
+### `npm test`
 
-Stay tuned for updates on my journey into React.js with TypeScript and Vite!
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-*This README file is part of my Learning Side Hustle project submission for the technology adjacent to PHP/MySQL in web development module.*
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
