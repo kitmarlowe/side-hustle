@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/side-hustle/static/css/main.a98addd6.css",
+    "main.js": "/side-hustle/static/js/main.ab3b978b.js",
+    "static/js/453.2eae6fc5.chunk.js": "/side-hustle/static/js/453.2eae6fc5.chunk.js",
+    "index.html": "/side-hustle/index.html",
+    "main.a98addd6.css.map": "/side-hustle/static/css/main.a98addd6.css.map",
+    "main.ab3b978b.js.map": "/side-hustle/static/js/main.ab3b978b.js.map",
+    "453.2eae6fc5.chunk.js.map": "/side-hustle/static/js/453.2eae6fc5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a98addd6.css",
+    "static/js/main.ab3b978b.js"
+  ]
+}
