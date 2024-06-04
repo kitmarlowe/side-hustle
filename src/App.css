@@ -1,0 +1,132 @@
+/* General body styles */
+body, html {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: 'Poppins', sans-serif; /* Set the font family for the page */
+  background-color: #333; /* Set the background color of the page */
+  color: white; /* Set the text color to white */
+}
+
+/* Main container for the app */
+.App {
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  min-height: 100vh; /* Ensure the container takes up the full viewport height */
+}
+
+/* Header container for the app */
+.App-header {
+  width: 90%; /* Set the width to 90% of its container */
+  max-width: 600px; /* Maximum width of 600px */
+  margin: auto; /* Center the header */
+  text-align: center; /* Center the text */
+}
+
+/* Container for the input field and buttons */
+.input-container {
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center the children horizontally */
+  margin-top: 20px; /* Add margin to the top */
+}
+
+/* Common styles for input fields and buttons */
+input[type="text"], button {
+  padding: 12px; /* Add padding inside the elements */
+  border: none; /* Remove default border */
+  border-radius: 20px; /* Round the corners */
+  font-size: 16px; /* Set the font size */
+  /* Enhanced shadow for input and buttons */
+  box-shadow: 6px 6px 10px #1a1a1a, -6px -6px 10px #4a4a4a; /* Add a shadow effect */
+}
+
+/* Specific styles for the text input field */
+input[type="text"] {
+  width: calc(100% - 24px); /* Full width minus padding */
+  background-color: #333; /* Match the background color to the page */
+  color: white; /* Set the text color to white */
+  outline: 2px solid #7799f9; /* Add an outline on focus */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* General button styles */
+button {
+  background-color: #556cd6; /* Set the background color */
+  margin-top: 20px; /* Add margin to the top */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  color: white; /* Set the text color to white */
+  transition: background-color 0.3s; /* Smooth transition for background color changes */
+  box-shadow: 6px 6px 12px #0a0a0a, -6px -6px 12px #5a5a5a; /* Add a shadow effect */
+}
+
+/* Hover state for buttons */
+button:hover {
+  background-color: #4455c4; /* Change the background color on hover */
+}
+
+/* Styles for the task list */
+ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin-top: 20px; /* Add margin to the top */
+  width: 100%; /* Ensure the list takes up the full width of its container */
+}
+
+/* Styles for individual task items */
+li {
+  background: #333; /* Set the background color */
+  margin: 10px 0; /* Add margin to the top and bottom */
+  border-radius: 20px; /* Round the corners */
+  line-height: 1.6; /* Set the line height */
+  padding: 10px 20px; /* Add padding inside the element */
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Distribute space between children */
+  align-items: center; /* Center children vertically */
+  box-shadow: 6px 6px 12px #0a0a0a, -6px -6px 12px #5a5a5a; /* Add a shadow effect */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Container for wrapping task text */
+.overflow-wrap-container {
+  flex-grow: 1; /* Allow the container to take up available space */
+  white-space: pre-wrap; /* Preserve whitespace and wrap text */
+  word-wrap: break-word; /* Break long words to wrap text */
+  overflow-wrap: break-word; /* Break long words to wrap text */
+}
+
+/* Styles for the delete button */
+.delete {
+  background-color: transparent; /* Set the background color to transparent */
+  border: none; /* Remove default border */
+  color: #ff6347; /* Set the text color */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+/* Hover state for delete button */
+.delete:hover {
+  color: #ff2e00; /* Change the text color on hover */
+}
+
+/* Styles for the task item container */
+.task-item {
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Center children vertically */
+  width: 100%; /* Ensure the task item takes up full width */
+}
+
+/* Styles for the edit button inside task items */
+.task-item .edit-button {
+  margin: 10px; /* Add margin all around the button */
+}
+
+/* Styles for the edit form */
+.edit-form {
+  display: flex; /* Use flexbox layout */
+  gap: 10px; /* Add space between children */
+}
+
+/* Specific styles for buttons inside the edit form */
+.edit-form button {
+  margin-top: 0; /* Remove top margin */
+}
